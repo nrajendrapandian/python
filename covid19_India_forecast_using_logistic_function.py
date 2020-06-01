@@ -95,8 +95,8 @@ p0 = np.random.exponential(size = 3)
 p0
 
 # Set min bound 0 on all coefficients, and set different max bounds for each coefficient
-# Upper bound c could be the country's population size itself.
-bounds = (0, [100000., 2., 1000000000.])
+# Upper bound of c could be the country's population size itself.
+bounds = (0, [100000., 2., 1300000000.])
 
 # Convert pd.Series to np.Array and use Scipy's curve fit to find the best Nonlinear Least Squares coefficients
 
